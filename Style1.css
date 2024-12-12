@@ -52,6 +52,13 @@ footer{
     text-align: left;
     margin: 50px 0;
 }
+.button-grid {
+    display: grid;              
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 10px;                    
+    width: 100%;                
+    margin: 0 auto;               
+}
 
 .transition-button {
     padding: 10px 20px;
